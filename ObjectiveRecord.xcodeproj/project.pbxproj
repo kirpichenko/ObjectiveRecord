@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9E270461CEB55C600CC1A23 /* ObjectiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E270451CEB55C600CC1A23 /* ObjectiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E270531CEB561F00CC1A23 /* CoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704D1CEB561F00CC1A23 /* CoreDataManager.h */; };
+		D9E270541CEB561F00CC1A23 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E2704E1CEB561F00CC1A23 /* CoreDataManager.m */; };
+		D9E270551CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704F1CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h */; };
+		D9E270561CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E270501CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m */; };
+		D9E270571CEB561F00CC1A23 /* NSManagedObject+Mappings.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E270511CEB561F00CC1A23 /* NSManagedObject+Mappings.h */; };
+		D9E270581CEB561F00CC1A23 /* NSManagedObject+Mappings.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E270521CEB561F00CC1A23 /* NSManagedObject+Mappings.m */; };
+		D9E2705C1CEB568600CC1A23 /* ObjectiveSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E2705B1CEB568600CC1A23 /* ObjectiveSugar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9E270421CEB55C600CC1A23 /* ObjectiveRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectiveRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E270451CEB55C600CC1A23 /* ObjectiveRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveRecord.h; sourceTree = "<group>"; };
+		D9E270471CEB55C600CC1A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E2704D1CEB561F00CC1A23 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		D9E2704E1CEB561F00CC1A23 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		D9E2704F1CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+ActiveRecord.h"; sourceTree = "<group>"; };
+		D9E270501CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+ActiveRecord.m"; sourceTree = "<group>"; };
+		D9E270511CEB561F00CC1A23 /* NSManagedObject+Mappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Mappings.h"; sourceTree = "<group>"; };
+		D9E270521CEB561F00CC1A23 /* NSManagedObject+Mappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Mappings.m"; sourceTree = "<group>"; };
+		D9E2705B1CEB568600CC1A23 /* ObjectiveSugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveSugar.framework; path = Carthage/Build/iOS/ObjectiveSugar.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9E2703E1CEB55C600CC1A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E2705C1CEB568600CC1A23 /* ObjectiveSugar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9E270381CEB55C600CC1A23 = {
+			isa = PBXGroup;
+			children = (
+				D9E270441CEB55C600CC1A23 /* ObjectiveRecord */,
+				D9E270431CEB55C600CC1A23 /* Products */,
+				D9E2705B1CEB568600CC1A23 /* ObjectiveSugar.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E270431CEB55C600CC1A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9E270421CEB55C600CC1A23 /* ObjectiveRecord.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E270441CEB55C600CC1A23 /* ObjectiveRecord */ = {
+			isa = PBXGroup;
+			children = (
+				D9E270451CEB55C600CC1A23 /* ObjectiveRecord.h */,
+				D9E2704D1CEB561F00CC1A23 /* CoreDataManager.h */,
+				D9E2704E1CEB561F00CC1A23 /* CoreDataManager.m */,
+				D9E2704F1CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h */,
+				D9E270501CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m */,
+				D9E270511CEB561F00CC1A23 /* NSManagedObject+Mappings.h */,
+				D9E270521CEB561F00CC1A23 /* NSManagedObject+Mappings.m */,
+				D9E270471CEB55C600CC1A23 /* Info.plist */,
+			);
+			path = ObjectiveRecord;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9E2703F1CEB55C600CC1A23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E270461CEB55C600CC1A23 /* ObjectiveRecord.h in Headers */,
+				D9E270551CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h in Headers */,
+				D9E270531CEB561F00CC1A23 /* CoreDataManager.h in Headers */,
+				D9E270571CEB561F00CC1A23 /* NSManagedObject+Mappings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D9E270411CEB55C600CC1A23 /* ObjectiveRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9E2704A1CEB55C600CC1A23 /* Build configuration list for PBXNativeTarget "ObjectiveRecord" */;
+			buildPhases = (
+				D9E2703D1CEB55C600CC1A23 /* Sources */,
+				D9E2703E1CEB55C600CC1A23 /* Frameworks */,
+				D9E2703F1CEB55C600CC1A23 /* Headers */,
+				D9E270401CEB55C600CC1A23 /* Resources */,
+				D9E2705D1CEB572A00CC1A23 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveRecord;
+			productName = ObjectiveRecord;
+			productReference = D9E270421CEB55C600CC1A23 /* ObjectiveRecord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9E270391CEB55C600CC1A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Evgeniy Kirpichenko";
+				TargetAttributes = {
+					D9E270411CEB55C600CC1A23 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D9E2703C1CEB55C600CC1A23 /* Build configuration list for PBXProject "ObjectiveRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9E270381CEB55C600CC1A23;
+			productRefGroup = D9E270431CEB55C600CC1A23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9E270411CEB55C600CC1A23 /* ObjectiveRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9E270401CEB55C600CC1A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9E2705D1CEB572A00CC1A23 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9E2703D1CEB55C600CC1A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E270561CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m in Sources */,
+				D9E270541CEB561F00CC1A23 /* CoreDataManager.m in Sources */,
+				D9E270581CEB561F00CC1A23 /* NSManagedObject+Mappings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9E270481CEB55C600CC1A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9E270491CEB55C600CC1A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9E2704B1CEB55C600CC1A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ObjectiveRecord/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kirpichenko.ObjectiveRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9E2704C1CEB55C600CC1A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ObjectiveRecord/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kirpichenko.ObjectiveRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9E2703C1CEB55C600CC1A23 /* Build configuration list for PBXProject "ObjectiveRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E270481CEB55C600CC1A23 /* Debug */,
+				D9E270491CEB55C600CC1A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9E2704A1CEB55C600CC1A23 /* Build configuration list for PBXNativeTarget "ObjectiveRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9E2704B1CEB55C600CC1A23 /* Debug */,
+				D9E2704C1CEB55C600CC1A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9E270391CEB55C600CC1A23 /* Project object */;
+}

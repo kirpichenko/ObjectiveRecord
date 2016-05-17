@@ -1,0 +1,519 @@
+BCSymbolMap Version: 1.0
+-[NSSet(ObjectiveSugar) firstObject]
+-[NSSet(ObjectiveSugar) lastObject]
+-[NSSet(ObjectiveSugar) sample]
+-[NSSet(ObjectiveSugar) each:]
+__30-[NSSet(ObjectiveSugar) each:]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[NSSet(ObjectiveSugar) eachWithIndex:]
+__39-[NSSet(ObjectiveSugar) eachWithIndex:]_block_invoke
+__copy_helper_block_.11
+__destroy_helper_block_.12
+-[NSSet(ObjectiveSugar) map:]
+-[NSSet(ObjectiveSugar) select:]
+-[NSSet(ObjectiveSugar) reject:]
+-[NSSet(ObjectiveSugar) sort]
+-[NSSet(ObjectiveSugar) reduce:]
+-[NSSet(ObjectiveSugar) reduce:withBlock:]
+-[NSSet(ObjectiveSugar) first]
+-[NSSet(ObjectiveSugar) last]
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_METH_VAR_NAME_.7
+OBJC_SELECTOR_REFERENCES_.8
+.str
+__block_descriptor_tmp
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+__block_descriptor_tmp.13
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_CLASSLIST_REFERENCES_$_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_CLASSLIST_REFERENCES_$_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_SELECTOR_REFERENCES_.25
+OBJC_METH_VAR_NAME_.26
+OBJC_SELECTOR_REFERENCES_.27
+OBJC_METH_VAR_NAME_.28
+OBJC_SELECTOR_REFERENCES_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_TYPE_
+OBJC_METH_VAR_NAME_.32
+OBJC_METH_VAR_NAME_.33
+OBJC_METH_VAR_TYPE_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_METH_VAR_TYPE_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_METH_VAR_NAME_.39
+OBJC_METH_VAR_NAME_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_METH_VAR_TYPE_.42
+OBJC_METH_VAR_NAME_.43
+OBJC_METH_VAR_NAME_.44
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSSet_$_ObjectiveSugar
+l_OBJC_$_CATEGORY_NSSet_$_ObjectiveSugar
+OBJC_LABEL_CATEGORY_$
+Apple LLVM version 7.3.0 (clang-703.0.31)
+-[NSSet(ObjectiveSugar) last]
+/Users/kirpichenko/Development/ObjectiveRecord/Carthage/Checkouts/ObjectiveSugar/ObjectiveSugar/NSSet+ObjectiveSugar.m
+/Users/kirpichenko/Development/ObjectiveRecord/Carthage/Checkouts/ObjectiveSugar
+-[NSSet(ObjectiveSugar) first]
+-[NSSet(ObjectiveSugar) reduce:withBlock:]
+-[NSSet(ObjectiveSugar) reduce:]
+-[NSSet(ObjectiveSugar) sort]
+-[NSSet(ObjectiveSugar) reject:]
+-[NSSet(ObjectiveSugar) select:]
+-[NSSet(ObjectiveSugar) map:]
+-[NSSet(ObjectiveSugar) eachWithIndex:]
+-[NSSet(ObjectiveSugar) each:]
+-[NSSet(ObjectiveSugar) sample]
+-[NSSet(ObjectiveSugar) lastObject]
+-[NSSet(ObjectiveSugar) firstObject]
+-[NSArray(ObjectiveSugar) sample]
+-[NSArray(ObjectiveSugar) objectForKeyedSubscript:]
+-[NSArray(ObjectiveSugar) rangeFromString:]
+-[NSArray(ObjectiveSugar) each:]
+__32-[NSArray(ObjectiveSugar) each:]_block_invoke
+-[NSArray(ObjectiveSugar) eachWithIndex:]
+__41-[NSArray(ObjectiveSugar) eachWithIndex:]_block_invoke
+__copy_helper_block_.28
+__destroy_helper_block_.29
+-[NSArray(ObjectiveSugar) each:options:]
+__40-[NSArray(ObjectiveSugar) each:options:]_block_invoke
+__copy_helper_block_.31
+__destroy_helper_block_.32
+-[NSArray(ObjectiveSugar) eachWithIndex:options:]
+__49-[NSArray(ObjectiveSugar) eachWithIndex:options:]_block_invoke
+__copy_helper_block_.36
+__destroy_helper_block_.37
+-[NSArray(ObjectiveSugar) includes:]
+-[NSArray(ObjectiveSugar) take:]
+-[NSArray(ObjectiveSugar) takeWhile:]
+-[NSArray(ObjectiveSugar) map:]
+-[NSArray(ObjectiveSugar) select:]
+__34-[NSArray(ObjectiveSugar) select:]_block_invoke
+__copy_helper_block_.54
+__destroy_helper_block_.55
+-[NSArray(ObjectiveSugar) reject:]
+__34-[NSArray(ObjectiveSugar) reject:]_block_invoke
+__copy_helper_block_.62
+__destroy_helper_block_.63
+-[NSArray(ObjectiveSugar) detect:]
+-[NSArray(ObjectiveSugar) find:]
+-[NSArray(ObjectiveSugar) flatten]
+-[NSArray(ObjectiveSugar) compact]
+__34-[NSArray(ObjectiveSugar) compact]_block_invoke
+-[NSArray(ObjectiveSugar) join]
+-[NSArray(ObjectiveSugar) join:]
+-[NSArray(ObjectiveSugar) sort]
+-[NSArray(ObjectiveSugar) sortBy:]
+-[NSArray(ObjectiveSugar) reverse]
+-[NSArray(ObjectiveSugar) reduce:]
+-[NSArray(ObjectiveSugar) reduce:withBlock:]
+-[NSArray(ObjectiveSugar) unique]
+-[NSArray(ObjectiveSugar) intersectionWithArray:]
+-[NSArray(ObjectiveSugar) unionWithArray:]
+-[NSArray(ObjectiveSugar) relativeComplement:]
+-[NSArray(ObjectiveSugar) symmetricDifference:]
+-[NSArray(ObjectiveSugar) anyObject]
+-[NSArray(ObjectiveSugar) first]
+-[NSArray(ObjectiveSugar) last]
+_unnamed_cfstring_
+OBJC_CLASSLIST_REFERENCES_$_.11
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+OBJC_CLASSLIST_REFERENCES_$_.14
+.str.15
+_unnamed_cfstring_.16
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+.str.19
+_unnamed_cfstring_.20
+.str.23
+_unnamed_cfstring_.24
+.str.25
+__block_descriptor_tmp.30
+__block_descriptor_tmp.33
+OBJC_METH_VAR_NAME_.34
+OBJC_SELECTOR_REFERENCES_.35
+__block_descriptor_tmp.38
+OBJC_SELECTOR_REFERENCES_.40
+OBJC_CLASSLIST_REFERENCES_$_.41
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_SELECTOR_REFERENCES_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_SELECTOR_REFERENCES_.47
+OBJC_METH_VAR_NAME_.48
+OBJC_SELECTOR_REFERENCES_.49
+OBJC_CLASSLIST_REFERENCES_$_.50
+OBJC_METH_VAR_NAME_.51
+OBJC_SELECTOR_REFERENCES_.52
+OBJC_CLASSLIST_REFERENCES_$_.53
+.str.56
+__block_descriptor_tmp.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+__block_descriptor_tmp.64
+OBJC_METH_VAR_NAME_.65
+OBJC_SELECTOR_REFERENCES_.66
+OBJC_CLASSLIST_REFERENCES_$_.67
+OBJC_METH_VAR_NAME_.68
+OBJC_SELECTOR_REFERENCES_.69
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+.str.72
+__block_descriptor_tmp.73
+__block_literal_global
+OBJC_METH_VAR_NAME_.74
+OBJC_SELECTOR_REFERENCES_.75
+.str.76
+_unnamed_cfstring_.77
+OBJC_METH_VAR_NAME_.78
+OBJC_SELECTOR_REFERENCES_.79
+OBJC_METH_VAR_NAME_.80
+OBJC_SELECTOR_REFERENCES_.81
+OBJC_METH_VAR_NAME_.82
+OBJC_SELECTOR_REFERENCES_.83
+OBJC_CLASSLIST_REFERENCES_$_.84
+OBJC_METH_VAR_NAME_.85
+OBJC_SELECTOR_REFERENCES_.86
+OBJC_METH_VAR_NAME_.87
+OBJC_SELECTOR_REFERENCES_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_SELECTOR_REFERENCES_.90
+OBJC_METH_VAR_NAME_.91
+OBJC_SELECTOR_REFERENCES_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_SELECTOR_REFERENCES_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_SELECTOR_REFERENCES_.96
+OBJC_METH_VAR_NAME_.97
+OBJC_SELECTOR_REFERENCES_.98
+OBJC_CLASSLIST_REFERENCES_$_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_SELECTOR_REFERENCES_.101
+.str.102
+_unnamed_cfstring_.103
+OBJC_METH_VAR_NAME_.104
+OBJC_SELECTOR_REFERENCES_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_SELECTOR_REFERENCES_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_SELECTOR_REFERENCES_.109
+.str.110
+_unnamed_cfstring_.111
+OBJC_METH_VAR_NAME_.112
+OBJC_SELECTOR_REFERENCES_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_SELECTOR_REFERENCES_.115
+OBJC_METH_VAR_NAME_.116
+OBJC_SELECTOR_REFERENCES_.117
+OBJC_METH_VAR_NAME_.118
+OBJC_SELECTOR_REFERENCES_.119
+OBJC_METH_VAR_NAME_.120
+OBJC_METH_VAR_TYPE_.121
+OBJC_METH_VAR_TYPE_.122
+OBJC_METH_VAR_NAME_.123
+OBJC_METH_VAR_TYPE_.124
+OBJC_METH_VAR_NAME_.125
+OBJC_METH_VAR_NAME_.126
+OBJC_METH_VAR_TYPE_.127
+OBJC_METH_VAR_NAME_.128
+OBJC_METH_VAR_NAME_.129
+OBJC_METH_VAR_TYPE_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_METH_VAR_TYPE_.132
+OBJC_METH_VAR_NAME_.133
+OBJC_METH_VAR_TYPE_.134
+OBJC_METH_VAR_NAME_.135
+OBJC_METH_VAR_NAME_.136
+OBJC_METH_VAR_NAME_.137
+OBJC_METH_VAR_NAME_.138
+OBJC_METH_VAR_NAME_.139
+OBJC_METH_VAR_NAME_.140
+OBJC_METH_VAR_NAME_.141
+OBJC_METH_VAR_NAME_.142
+OBJC_METH_VAR_NAME_.143
+OBJC_METH_VAR_NAME_.144
+OBJC_METH_VAR_TYPE_.145
+OBJC_METH_VAR_NAME_.146
+OBJC_METH_VAR_NAME_.147
+OBJC_METH_VAR_NAME_.148
+OBJC_METH_VAR_NAME_.149
+OBJC_METH_VAR_NAME_.150
+OBJC_METH_VAR_NAME_.151
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_ObjectiveSugar
+l_OBJC_$_CATEGORY_NSArray_$_ObjectiveSugar
+isBackwardsRange
+/Users/kirpichenko/Development/ObjectiveRecord/Carthage/Checkouts/ObjectiveSugar/ObjectiveSugar/NSArray+ObjectiveSugar.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[NSArray(ObjectiveSugar) last]
+-[NSArray(ObjectiveSugar) first]
+-[NSArray(ObjectiveSugar) anyObject]
+-[NSArray(ObjectiveSugar) symmetricDifference:]
+-[NSArray(ObjectiveSugar) relativeComplement:]
+-[NSArray(ObjectiveSugar) unionWithArray:]
+-[NSArray(ObjectiveSugar) intersectionWithArray:]
+-[NSArray(ObjectiveSugar) unique]
+-[NSArray(ObjectiveSugar) reduce:withBlock:]
+-[NSArray(ObjectiveSugar) reduce:]
+-[NSArray(ObjectiveSugar) reverse]
+-[NSArray(ObjectiveSugar) sortBy:]
+-[NSArray(ObjectiveSugar) sort]
+-[NSArray(ObjectiveSugar) join:]
+-[NSArray(ObjectiveSugar) join]
+-[NSArray(ObjectiveSugar) compact]
+-[NSArray(ObjectiveSugar) flatten]
+-[NSArray(ObjectiveSugar) find:]
+-[NSArray(ObjectiveSugar) detect:]
+-[NSArray(ObjectiveSugar) reject:]
+-[NSArray(ObjectiveSugar) select:]
+-[NSArray(ObjectiveSugar) map:]
+-[NSArray(ObjectiveSugar) takeWhile:]
+-[NSArray(ObjectiveSugar) take:]
+-[NSArray(ObjectiveSugar) includes:]
+-[NSArray(ObjectiveSugar) eachWithIndex:options:]
+-[NSArray(ObjectiveSugar) each:options:]
+-[NSArray(ObjectiveSugar) eachWithIndex:]
+-[NSArray(ObjectiveSugar) each:]
+-[NSArray(ObjectiveSugar) rangeFromString:]
+-[NSArray(ObjectiveSugar) objectForKeyedSubscript:]
+-[NSArray(ObjectiveSugar) sample]
+-[NSString(Additions) split]
+__28-[NSString(Additions) split]_block_invoke
+-[NSString(Additions) split:]
+-[NSString(Additions) camelCase]
+-[NSString(Additions) lowerCamelCase]
+-[NSString(Additions) containsString:]
+-[NSString(Additions) strip]
+-[NSString(Additions) match:]
+.str.1
+_unnamed_cfstring_.2
+.str.3
+_unnamed_cfstring_.4
+OBJC_CLASSLIST_REFERENCES_$_.7
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+.str.14
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_SELECTOR_REFERENCES_.34
+OBJC_CLASSLIST_REFERENCES_$_.35
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_METH_VAR_NAME_.45
+OBJC_METH_VAR_TYPE_.46
+OBJC_METH_VAR_NAME_.47
+OBJC_METH_VAR_TYPE_.49
+OBJC_METH_VAR_NAME_.50
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_Additions
+l_OBJC_$_CATEGORY_NSString_$_Additions
+-[NSString(Additions) match:]
+/Users/kirpichenko/Development/ObjectiveRecord/Carthage/Checkouts/ObjectiveSugar/ObjectiveSugar/NSString+ObjectiveSugar.m
+-[NSString(Additions) strip]
+-[NSString(Additions) containsString:]
+-[NSString(Additions) lowerCamelCase]
+-[NSString(Additions) camelCase]
+-[NSString(Additions) split:]
+-[NSString(Additions) split]
+NSStringWithFormat
+-[NSMutableArray(ObjectiveSugar) push:]
+-[NSMutableArray(ObjectiveSugar) pop]
+-[NSMutableArray(ObjectiveSugar) pop:]
+-[NSMutableArray(ObjectiveSugar) concat:]
+-[NSMutableArray(ObjectiveSugar) shift]
+-[NSMutableArray(ObjectiveSugar) shift:]
+-[NSMutableArray(ObjectiveSugar) keepIf:]
+__41-[NSMutableArray(ObjectiveSugar) keepIf:]_block_invoke
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_METH_VAR_TYPE_.29
+OBJC_METH_VAR_TYPE_.31
+OBJC_METH_VAR_TYPE_.35
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSMutableArray_$_ObjectiveSugar
+l_OBJC_$_CATEGORY_NSMutableArray_$_ObjectiveSugar
+/Users/kirpichenko/Development/ObjectiveRecord/Carthage/Checkouts/ObjectiveSugar/ObjectiveSugar/NSMutableArray+ObjectiveSugar.m
+-[NSMutableArray(ObjectiveSugar) keepIf:]
+-[NSMutableArray(ObjectiveSugar) shift:]
+-[NSMutableArray(ObjectiveSugar) shift]
+-[NSMutableArray(ObjectiveSugar) concat:]
+-[NSMutableArray(ObjectiveSugar) pop:]
+-[NSMutableArray(ObjectiveSugar) pop]
+-[NSMutableArray(ObjectiveSugar) push:]
+-[NSNumber(ObjectiveSugar) times:]
+-[NSNumber(ObjectiveSugar) timesWithIndex:]
+-[NSNumber(ObjectiveSugar) upto:do:]
+-[NSNumber(ObjectiveSugar) downto:do:]
+-[NSNumber(ObjectiveSugar) second]
+-[NSNumber(ObjectiveSugar) seconds]
+-[NSNumber(ObjectiveSugar) minute]
+-[NSNumber(ObjectiveSugar) minutes]
+-[NSNumber(ObjectiveSugar) hour]
+-[NSNumber(ObjectiveSugar) hours]
+-[NSNumber(ObjectiveSugar) day]
+-[NSNumber(ObjectiveSugar) days]
+-[NSNumber(ObjectiveSugar) week]
+-[NSNumber(ObjectiveSugar) weeks]
+-[NSNumber(ObjectiveSugar) fortnight]
+-[NSNumber(ObjectiveSugar) fortnights]
+-[NSNumber(ObjectiveSugar) month]
+-[NSNumber(ObjectiveSugar) months]
+-[NSNumber(ObjectiveSugar) year]
+-[NSNumber(ObjectiveSugar) years]
+-[NSNumber(ObjectiveSugar) ago]
+-[NSNumber(ObjectiveSugar) ago:]
+-[NSNumber(ObjectiveSugar) since:]
+-[NSNumber(ObjectiveSugar) until:]
+-[NSNumber(ObjectiveSugar) fromNow]
+OBJC_CLASSLIST_REFERENCES_$_.27
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_METH_VAR_TYPE_.41
+OBJC_METH_VAR_TYPE_.44
+OBJC_METH_VAR_NAME_.49
+OBJC_METH_VAR_NAME_.52
+OBJC_METH_VAR_TYPE_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_METH_VAR_NAME_.55
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSNumber_$_ObjectiveSugar
+l_OBJC_$_CATEGORY_NSNumber_$_ObjectiveSugar
+-[NSNumber(ObjectiveSugar) fromNow]
+/Users/kirpichenko/Development/ObjectiveRecord/Carthage/Checkouts/ObjectiveSugar/ObjectiveSugar/NSNumber+ObjectiveSugar.m
+-[NSNumber(ObjectiveSugar) until:]
+-[NSNumber(ObjectiveSugar) since:]
+-[NSNumber(ObjectiveSugar) ago:]
+-[NSNumber(ObjectiveSugar) ago]
+-[NSNumber(ObjectiveSugar) years]
+-[NSNumber(ObjectiveSugar) year]
+-[NSNumber(ObjectiveSugar) months]
+-[NSNumber(ObjectiveSugar) month]
+-[NSNumber(ObjectiveSugar) fortnights]
+-[NSNumber(ObjectiveSugar) fortnight]
+-[NSNumber(ObjectiveSugar) weeks]
+-[NSNumber(ObjectiveSugar) week]
+-[NSNumber(ObjectiveSugar) days]
+-[NSNumber(ObjectiveSugar) day]
+-[NSNumber(ObjectiveSugar) hours]
+-[NSNumber(ObjectiveSugar) hour]
+-[NSNumber(ObjectiveSugar) minutes]
+-[NSNumber(ObjectiveSugar) minute]
+-[NSNumber(ObjectiveSugar) seconds]
+-[NSNumber(ObjectiveSugar) second]
+-[NSNumber(ObjectiveSugar) downto:do:]
+-[NSNumber(ObjectiveSugar) upto:do:]
+-[NSNumber(ObjectiveSugar) timesWithIndex:]
+-[NSNumber(ObjectiveSugar) times:]
+-[NSDictionary(Rubyfy) each:]
+__29-[NSDictionary(Rubyfy) each:]_block_invoke
+-[NSDictionary(Rubyfy) eachKey:]
+__32-[NSDictionary(Rubyfy) eachKey:]_block_invoke
+__copy_helper_block_.1
+__destroy_helper_block_.2
+-[NSDictionary(Rubyfy) eachValue:]
+__34-[NSDictionary(Rubyfy) eachValue:]_block_invoke
+__copy_helper_block_.4
+__destroy_helper_block_.5
+-[NSDictionary(Rubyfy) map:]
+__28-[NSDictionary(Rubyfy) map:]_block_invoke
+-[NSDictionary(Rubyfy) hasKey:]
+-[NSDictionary(Rubyfy) pick:]
+__29-[NSDictionary(Rubyfy) pick:]_block_invoke
+__copy_helper_block_.27
+__destroy_helper_block_.28
+-[NSDictionary(Rubyfy) omit:]
+__29-[NSDictionary(Rubyfy) omit:]_block_invoke
+__copy_helper_block_.32
+__destroy_helper_block_.33
+-[NSDictionary(Rubyfy) merge:]
+-[NSDictionary(Rubyfy) merge:block:]
+__36-[NSDictionary(Rubyfy) merge:block:]_block_invoke
+__copy_helper_block_.43
+__destroy_helper_block_.44
+__36-[NSDictionary(Rubyfy) merge:block:]_block_invoke.49
+__copy_helper_block_.50
+__destroy_helper_block_.51
+__36-[NSDictionary(Rubyfy) merge:block:]_block_invoke.55
+__copy_helper_block_.56
+__destroy_helper_block_.57
+-[NSDictionary(Rubyfy) invert]
+__block_descriptor_tmp.3
+__block_descriptor_tmp.6
+OBJC_CLASSLIST_REFERENCES_$_.16
+__block_descriptor_tmp.29
+__block_descriptor_tmp.34
+OBJC_SELECTOR_REFERENCES_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_SELECTOR_REFERENCES_.38
+OBJC_SELECTOR_REFERENCES_.42
+.str.45
+__block_descriptor_tmp.46
+OBJC_SELECTOR_REFERENCES_.48
+__block_descriptor_tmp.52
+OBJC_METH_VAR_NAME_.53
+OBJC_SELECTOR_REFERENCES_.54
+__block_descriptor_tmp.58
+OBJC_METH_VAR_NAME_.59
+OBJC_SELECTOR_REFERENCES_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_METH_VAR_TYPE_.64
+OBJC_METH_VAR_TYPE_.66
+OBJC_METH_VAR_NAME_.67
+OBJC_METH_VAR_TYPE_.68
+OBJC_METH_VAR_NAME_.69
+OBJC_METH_VAR_NAME_.71
+OBJC_METH_VAR_TYPE_.72
+OBJC_METH_VAR_NAME_.73
+OBJC_METH_VAR_TYPE_.74
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_Rubyfy
+l_OBJC_$_CATEGORY_NSDictionary_$_Rubyfy
+-[NSDictionary(Rubyfy) invert]
+/Users/kirpichenko/Development/ObjectiveRecord/Carthage/Checkouts/ObjectiveSugar/ObjectiveSugar/NSDictionary+ObjectiveSugar.m
+-[NSDictionary(Rubyfy) merge:block:]
+-[NSDictionary(Rubyfy) merge:]
+-[NSDictionary(Rubyfy) omit:]
+-[NSDictionary(Rubyfy) pick:]
+-[NSDictionary(Rubyfy) hasKey:]
+-[NSDictionary(Rubyfy) map:]
+-[NSDictionary(Rubyfy) eachValue:]
+-[NSDictionary(Rubyfy) eachKey:]
+-[NSDictionary(Rubyfy) each:]
+/Users/kirpichenko/Library/Developer/Xcode/DerivedData/ObjectiveSugar-ekhfsbjqlwfoinaxfdnjjtrofrws/Build/Intermediates/ObjectiveSugar.build/Release-iphoneos/ObjectiveSugar.build/DerivedSources/ObjectiveSugar_vers.c

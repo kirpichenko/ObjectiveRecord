@@ -22,7 +22,8 @@
 
 #import "NSManagedObject+Mappings.h"
 #import "NSManagedObject+ActiveRecord.h"
-#import "ObjectiveSugar.h"
+
+#import <ObjectiveSugar/ObjectiveSugar.h>
 
 @implementation NSManagedObject (Mappings)
 

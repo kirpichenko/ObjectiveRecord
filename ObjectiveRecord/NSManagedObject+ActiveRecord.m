@@ -21,7 +21,8 @@
 // THE SOFTWARE.
 
 #import "NSManagedObject+ActiveRecord.h"
-#import "ObjectiveSugar.h"
+
+#import <ObjectiveSugar/ObjectiveSugar.h>
 
 @implementation NSManagedObjectContext (ActiveRecord)
 
