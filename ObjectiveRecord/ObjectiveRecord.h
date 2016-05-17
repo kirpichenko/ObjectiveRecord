@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double ObjectiveRecordVersionNumber;
 FOUNDATION_EXPORT const unsigned char ObjectiveRecordVersionString[];
 
 #import <ObjectiveRecord/NSManagedObject+Mappings.h>
-#import <ObjectiveRecord/NSManagedObject+ActiveRecord>
+#import <ObjectiveRecord/NSManagedObject+ActiveRecord.h>
 
