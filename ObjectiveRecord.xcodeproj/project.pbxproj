@@ -10,9 +10,9 @@
 		D9E270461CEB55C600CC1A23 /* ObjectiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E270451CEB55C600CC1A23 /* ObjectiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E270531CEB561F00CC1A23 /* CoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704D1CEB561F00CC1A23 /* CoreDataManager.h */; };
 		D9E270541CEB561F00CC1A23 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E2704E1CEB561F00CC1A23 /* CoreDataManager.m */; };
-		D9E270551CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704F1CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h */; };
+		D9E270551CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704F1CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E270561CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E270501CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m */; };
-		D9E270571CEB561F00CC1A23 /* NSManagedObject+Mappings.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E270511CEB561F00CC1A23 /* NSManagedObject+Mappings.h */; };
+		D9E270571CEB561F00CC1A23 /* NSManagedObject+Mappings.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E270511CEB561F00CC1A23 /* NSManagedObject+Mappings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E270581CEB561F00CC1A23 /* NSManagedObject+Mappings.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E270521CEB561F00CC1A23 /* NSManagedObject+Mappings.m */; };
 		D9E2705C1CEB568600CC1A23 /* ObjectiveSugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E2705B1CEB568600CC1A23 /* ObjectiveSugar.framework */; };
 /* End PBXBuildFile section */
@@ -83,8 +83,8 @@
 			files = (
 				D9E270461CEB55C600CC1A23 /* ObjectiveRecord.h in Headers */,
 				D9E270551CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h in Headers */,
-				D9E270531CEB561F00CC1A23 /* CoreDataManager.h in Headers */,
 				D9E270571CEB561F00CC1A23 /* NSManagedObject+Mappings.h in Headers */,
+				D9E270531CEB561F00CC1A23 /* CoreDataManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
