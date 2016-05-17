@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D9E270461CEB55C600CC1A23 /* ObjectiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E270451CEB55C600CC1A23 /* ObjectiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9E270531CEB561F00CC1A23 /* CoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704D1CEB561F00CC1A23 /* CoreDataManager.h */; };
+		D9E270531CEB561F00CC1A23 /* CoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704D1CEB561F00CC1A23 /* CoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E270541CEB561F00CC1A23 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E2704E1CEB561F00CC1A23 /* CoreDataManager.m */; };
 		D9E270551CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E2704F1CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9E270561CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E270501CEB561F00CC1A23 /* NSManagedObject+ActiveRecord.m */; };
@@ -42,12 +42,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D92900781CEB6099006B6AAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9E2705B1CEB568600CC1A23 /* ObjectiveSugar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9E270381CEB55C600CC1A23 = {
 			isa = PBXGroup;
 			children = (
 				D9E270441CEB55C600CC1A23 /* ObjectiveRecord */,
 				D9E270431CEB55C600CC1A23 /* Products */,
-				D9E2705B1CEB568600CC1A23 /* ObjectiveSugar.framework */,
+				D92900781CEB6099006B6AAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
